@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MainContainer from './MainContainer';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header />
+    
+      <MainContainer id="mainContainer" />
+
+      <footer id='footer'>
+        <p>by <a href="https://github.com/tbone9/interval-timer" target="_blank" rel="noopener noreferrer">Tyler Walker</a>, 2020</p>
+      </footer>
+      
     </div>
   );
 }

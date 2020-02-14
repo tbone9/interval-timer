@@ -1,0 +1,75 @@
+.activeTime {
+    margin: 1em 0px;
+    display: flex;
+    /* flex-direction: column; */
+    /* height: 20vh; */
+    justify-content: center;
+    width: 100vw;
+}
+
+#container{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timerStarted {
+    margin: 1em 0px;
+    height: 100%;
+    display: flex;
+    width: 100vw;
+}
+
+#inputNames {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+    
+    width: 100%;
+}
+
+#timeStates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-left: 3em;
+}
+h4 {
+    font-size: 2rem;
+}
+
+#buttonGroup {
+    margin: 1rem 0;
+    /* border: 2px solid black; */
+}
+.timerButton {
+    margin: 0 1em;
+}
+
+#countdown{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown p{
+    font-weight: 800;
+    font-size: 2em;
+}
+
+#countdownStats{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    /* border: 2px solid black; */
+}
+#countdownStats p{
+    font-size: 3em;
+}
+
