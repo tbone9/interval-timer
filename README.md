@@ -1,4 +1,4 @@
-#Interval Timer
+# Interval Timer
 This project is a simple react app with a not-so-simple interval timer. This timer is intended for working out, and manages rounds, minutes, seconds, and even a rest period.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
