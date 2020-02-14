@@ -4,7 +4,7 @@
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15vh 1fr 5vh;
+  grid-template-rows: 10vh 1fr 3vh;
   grid-template-areas: 
     'header'
     'main'
